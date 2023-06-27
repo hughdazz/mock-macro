@@ -36,7 +36,7 @@ pub fn get_type(input: TokenStream) -> TokenStream {
 
     // 分割标志符
     // _id_u64 -> u64
-    let type_str = ident_str.split("_").collect::<Vec<&str>>()[2].to_owned();
+    let type_str = ident_str.split("splitsplitsplit").collect::<Vec<&str>>()[1].to_owned();
 
     // 获得类型
     let new_ident = format_ident!("{}", type_str);
